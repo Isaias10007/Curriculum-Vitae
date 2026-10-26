@@ -85,14 +85,14 @@ p { max-width: 42rem; }
 section ul:not(.etiquetas):not(.contacto):not(.lista-simple) { list-style: disc; padding-left: 1.3rem; }
 section li + li { margin-top: .3rem; }
 
-/* Etiquetas */
+
 .etiquetas { display: flex; flex-wrap: wrap; gap: .5rem; }
 .etiquetas li {
   margin: 0 !important; background: var(--blanco); border: 1px solid var(--linea);
   padding: .3rem .9rem; border-radius: 999px; font-size: .92rem;
 }
 
-/* Línea de tiempo (la lista sí es una secuencia) */
+
 .linea { list-style: none; border-left: 3px solid var(--pizarra); padding-left: 1.6rem; margin-left: .4rem; }
 .linea li { position: relative; padding-bottom: 1.4rem; }
 .linea li::before {
@@ -103,12 +103,12 @@ section li + li { margin-top: .3rem; }
 .linea h3 { margin-top: 0; }
 .meta { color: var(--pizarra-oscuro); font-weight: 500; font-size: .95rem; }
 
-/* Columnas */
+
 .columnas { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 
 .lista-simple li { padding: .8rem 0; border-bottom: 1px dashed var(--linea); }
 
-/* Proyectos */
+
 .proyectos { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.2rem; }
 .proyectos article {
   background: var(--blanco); border: 1px solid var(--linea);
@@ -119,12 +119,12 @@ section li + li { margin-top: .3rem; }
 .proyectos p { font-size: .95rem; flex: 1; margin-bottom: 1rem; }
 .proyectos a { font-weight: 700; }
 
-/* Contacto */
+
 .contacto li { margin-top: .6rem; font-size: 1.1rem; }
 
 footer { padding: 2rem 0; font-size: .9rem; color: var(--pizarra-oscuro); }
 
-/* ===== Móvil ===== */
+
 @media (max-width: 860px) {
   body { grid-template-columns: 1fr; }
   .lateral { position: static; height: auto; padding: 2rem 1rem 1.2rem; }
